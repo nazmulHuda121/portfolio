@@ -34,11 +34,15 @@
     border-radius: 5px;
 }
 
+.pr_cm_title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
 /* Header Style */
 
 .pr_header {
     background: #FFF8F3;
-    padding-top: 20px;
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: 2% 100%, right bottom;
@@ -75,4 +79,28 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 150px;
+}
+
+.pr_hero_left h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.pr_hero_left h1 {
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0;
+}
+.pr_contact_btn {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
 }
